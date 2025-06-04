@@ -92,7 +92,6 @@ namespace TournamentTable
                 for (int i = 0; i < teams.Length; i++)
                 {
                     var team = teams[i];
-                    Tools.Print(string.Join("\n", team.TournamentsData.Keys.ToArray()));
                     if (team.TournamentsData.ContainsKey(season))
                         lines.Add(team.TournamentsData[season]);
                 }
@@ -121,7 +120,6 @@ namespace TournamentTable
                 for (int i = 0; i < teams.Length; i++)
                 {
                     var team = teams[i];
-                    Tools.Print(string.Join("\n", team.TournamentsData.Keys.ToArray()));
                     if (team.TournamentsData.ContainsKey(season))
                         lines.Add(team.TournamentsData[season]);
                 }
@@ -150,7 +148,6 @@ namespace TournamentTable
                 for (int i = 0; i < teams.Length; i++)
                 {
                     var team = teams[i];
-                    Tools.Print(string.Join("\n", team.TournamentsData.Keys.ToArray()));
                     if (team.TournamentsData.ContainsKey(season))
                         lines.Add(team.TournamentsData[season]);
                 }
