@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TournamentTable", "TournamentTable\TournamentTable.csproj", "{213F0E79-7AE2-420F-B7A9-A2504657061A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{92753D3B-3821-490A-9C64-B590CA8F5919} = {92753D3B-3821-490A-9C64-B590CA8F5919}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{92753D3B-3821-490A-9C64-B590CA8F5919}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{213F0E79-7AE2-420F-B7A9-A2504657061A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{213F0E79-7AE2-420F-B7A9-A2504657061A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{213F0E79-7AE2-420F-B7A9-A2504657061A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{213F0E79-7AE2-420F-B7A9-A2504657061A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92753D3B-3821-490A-9C64-B590CA8F5919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92753D3B-3821-490A-9C64-B590CA8F5919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92753D3B-3821-490A-9C64-B590CA8F5919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92753D3B-3821-490A-9C64-B590CA8F5919}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9782EA83-F413-4C89-9C93-445B41F6A211}
+	EndGlobalSection
+EndGlobal
