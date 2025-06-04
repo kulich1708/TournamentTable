@@ -32,7 +32,6 @@ public class TournamentPlacementService<TTeam> where TTeam : Team
             else EqualityIds.Add(team.GetEqualityId(tournamentId), new List<TTeam>() { team });
             // Создаём новую пару или добавляем команду в имеющуюся
         }
-        //Tools.Print(EqualityIds.Count.ToString());
         foreach (var property in EqualityIds)
         {
             //Здесь работа только с командами, с одинаковым айди равенства
